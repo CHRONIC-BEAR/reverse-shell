@@ -1,5 +1,4 @@
 #this program will be put on the client system, that when executed, takes data received from the server, and prints it to the screen
-#these programs are very simple in nature, and were mainly developed to show the basic logic of a reverse shell
 import socket
 
 SERVER_IP = '' #enter IP of the listening device (server)
