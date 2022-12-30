@@ -1,5 +1,5 @@
 # reverse-shell
-two python programs (server.py & client.py) using socket programming to send data between client and server
+two python programs (server.py & client.py) sending data to each other, developed using socket programming
 
 the server.py program will listen on a specific port waiting for a connection
 
