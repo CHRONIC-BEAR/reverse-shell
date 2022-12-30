@@ -1,6 +1,6 @@
 # reverse-shell
 two python programs (server.py & client.py) using socket programming to send data between client and server
 
-the client.py program simulates malware an attacker would use to create a connection with a victim's computer to execute commands
+the server.py program will listen on a specific port waiting for a connection
 
-the client.py program should be turned into an exe file and run on a victim host to properly simulate an attack scenario
+the client.py program connects to the specified port and address of the listening device (server.py)
